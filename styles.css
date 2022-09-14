@@ -154,10 +154,19 @@ button:focus {
     flex-direction: column;
     text-align: center;
     padding-bottom: 25px;
+    padding-top: 25px;
+    line-height: 30px;
 }
 
-.grey {
-    color: rgb(165, 163, 163);
+
+.text a:link,
+.text a:visited {
+    text-decoration: none;
+    color: rgb(183, 131, 0);
+}
+
+.text a:hover {
+    color: hotpink;
 }
 
 /* Here goes footer */

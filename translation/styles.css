@@ -54,7 +54,7 @@ a:hover {
     align-items: flex-end;
     max-width:fit-content;
     overflow: hidden;
-    background-image: url(img/death-stranding.jpg);
+    background-image: url(img/mrish_marina_alekseevna2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 150px 500px 400px 100px;
@@ -119,7 +119,7 @@ button:focus {
 .p-two {
     margin: auto;
     padding: 100px 50px 300px 50px;
-    background-image: url(img/brothers.jpg);
+    background-image: url(img/mrish_marina_alekseevna1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -134,19 +134,41 @@ button:focus {
     color: white;
 }
 
-.p-two-img {
-    display: flex;
-    justify-content: space-around;
-    padding: 30px 50px 0 50px;
-    flex-wrap: wrap;
-    margin-top: 50px;
-}
-
-.moment {
+.p-two-text {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px 50px 0 50px;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 25px;
+    padding: 25px;
+    line-height: 25px;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+}
+
+.main-text {
+display: flex;
+}
+
+.source,
+.translation,
+.reference,
+.notes {
+    display: flex;
     align-items: stretch;
+    padding: 10px;
+}
+
+.source,
+.translation,
+.reference {
+    border-right-style: dotted;
 }
 
 .p-two img {
@@ -156,27 +178,14 @@ button:focus {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.moment .text {
-    margin-top: 30px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 25px;
-    padding-top: 25px;
-    line-height: 30px;
-}
-
-
 .text a:link,
 .text a:visited {
     text-decoration: none;
-    color: rgb(183, 131, 0);
+    color: rgb(14, 2, 239);
 }
 
 .text a:hover {
-    color: hotpink;
+    color: darkorange;
 }
 
 /* Here goes footer */

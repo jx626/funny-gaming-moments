@@ -1,0 +1,190 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: 'Trebuchet MS', Courier, sans-serif;
+}
+
+.nav img {
+    width: 50px;
+    height: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 25px;
+    background-color: #000000;
+}
+
+.left-align,
+.right-align {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-text-left {
+    margin-left: 40px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    color: white;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: darkorange;
+}
+
+/* Here goes part 1 */
+
+.p-one {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    max-width:fit-content;
+    overflow: hidden;
+    background-image: url(img/death-stranding.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 500px 400px 100px;
+}
+
+.p-one-content {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255, 40%);
+    border-radius: 25px;
+    padding: 0 30px 30px 0;
+}
+
+.p-one .text {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px 20px 30px;
+    flex-shrink: 0;
+    min-width: 300px;
+}
+
+.button {
+    align-self: flex-end;
+    width: fit-content;
+    padding: 0 30px;
+}
+
+button {
+    font-family: 'Trebuchet MS', Courier, sans-serif;
+    background: none;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    border-color: rgba(160, 159, 158, 0);
+    box-shadow: #804d01c6 4px 4px 0 0;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 235ms ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    padding: 5px;
+}
+
+button:hover {
+    box-shadow: rgba(0, 0, 0, .1) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+  }
+  
+button:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+  }
+
+/* Here goes part 2 */
+
+.p-two {
+    margin: auto;
+    padding: 100px 50px 300px 50px;
+    background-image: url(img/brothers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.p-two-header {
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    justify-content: center;
+    color: white;
+}
+
+.p-two-img {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 50px 0 50px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.moment {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    align-items: stretch;
+}
+
+.p-two img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.moment .text {
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    line-height: 30px;
+}
+
+
+.text a:link,
+.text a:visited {
+    text-decoration: none;
+    color: rgb(183, 131, 0);
+}
+
+.text a:hover {
+    color: hotpink;
+}
+
+/* Here goes footer */
+.footer {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}

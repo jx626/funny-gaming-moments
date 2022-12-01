@@ -28,7 +28,7 @@ body {
     margin-left: 40px;
 }
 
-ul {
+.nav ul {
     list-style-type: none;
     display: flex;
     gap: 30px;
@@ -163,13 +163,22 @@ display: flex;
     display: flex;
     align-items: stretch;
     padding: 10px;
+
 }
 
 .source,
 .translation,
 .reference {
     border-right-style: dotted;
+    width: 55%;
 }
+
+.notes ul {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
 
 .p-two img {
     width: 100%;
